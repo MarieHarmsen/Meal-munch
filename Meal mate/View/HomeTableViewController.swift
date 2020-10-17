@@ -7,8 +7,6 @@ class HomeTableViewController: UITableViewController {
         super.viewDidLoad()
         registerViews()
         setUpViews()
-     //   tableView.layer.cornerRadius = 6.0
-
     }
 
     func registerViews() {
@@ -19,9 +17,6 @@ class HomeTableViewController: UITableViewController {
     }
 
     func setUpViews() {
-     //   tableView.layer.cornerRadius = 10
-      //  tableView.layer.masksToBounds = true
-
         self.title = CommonStrings.AppTitle
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: sharedAppearance.headingText]
     }
@@ -59,11 +54,5 @@ class HomeTableViewController: UITableViewController {
             headerView?.contentView.layer.cornerRadius = 15
             headerView?.contentView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
     }
-
-//    override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
-//            let headerView = view as? UITableViewHeaderFooterView
-//            headerView?.contentView.layer.cornerRadius = 15
-//            headerView?.contentView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
-//    }
 }
 
