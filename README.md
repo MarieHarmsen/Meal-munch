@@ -3,7 +3,7 @@ An iOS app to show inspiration for food.
 API from Instagram
 
 [![Swift Version][swift-image]][swift-url]
-https://app.bitrise.io/app/650a6f15ffdbf877/status.svg?token=l_mXlLh8QeGUikJJLoSkVg
+[![Build Status](https://app.bitrise.io/app/650a6f15ffdbf877/status.svg?token=l_mXlLh8QeGUikJJLoSkVg)
 
 ## Additional comments
 
