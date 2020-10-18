@@ -3,6 +3,8 @@ import Foundation
 internal enum CommonStrings {
   /// Meal Munch
   internal static let AppTitle = CommonStrings.tr("Common", "Title.AppName")
+  /// An error occured, please try again later
+  internal static let errorDescription = CommonStrings.tr("Common", "Error.GenericError")
 }
 
 extension CommonStrings {

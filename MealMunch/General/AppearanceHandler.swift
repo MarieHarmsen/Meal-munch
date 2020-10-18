@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-class AppearanceHandler {
+struct AppearanceHandler {
     func headingBoldFont(withSize size: CGFloat) -> UIFont {
         return UIFont.systemFont(ofSize: size, weight: UIFont.Weight.bold)
     }
