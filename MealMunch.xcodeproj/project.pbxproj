@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A3DAB76604DEEF9F1BF2AB5 /* Pods_Meal_mate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAA21A72B420403CA79B2B6 /* Pods_Meal_mate.framework */; };
+		CCAF63EF8E9D8ED83DADA780 /* Pods_MealMunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0A40757E233536DC438BB5 /* Pods_MealMunch.framework */; };
 		E91414C4253777A70014F342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91414C3253777A70014F342 /* AppDelegate.swift */; };
 		E91414C6253777A70014F342 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91414C5253777A70014F342 /* SceneDelegate.swift */; };
 		E91414C8253777A70014F342 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91414C7253777A70014F342 /* HomeTableViewController.swift */; };
@@ -51,10 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CAA21A72B420403CA79B2B6 /* Pods_Meal_mate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meal_mate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D97DFE2E70E508BF23310CB /* Pods-Meal mate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meal mate.release.xcconfig"; path = "Target Support Files/Pods-Meal mate/Pods-Meal mate.release.xcconfig"; sourceTree = "<group>"; };
+		4F0A40757E233536DC438BB5 /* Pods_MealMunch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MealMunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56253B365996F5373A3CDB6C /* Pods-MealMunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealMunch.release.xcconfig"; path = "Target Support Files/Pods-MealMunch/Pods-MealMunch.release.xcconfig"; sourceTree = "<group>"; };
+		6DD10BA91B302FE25A2BB0FE /* Pods-MealMunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealMunch.debug.xcconfig"; path = "Target Support Files/Pods-MealMunch/Pods-MealMunch.debug.xcconfig"; sourceTree = "<group>"; };
 		D8B1FEF532BA9EC82BF7D349 /* Pods-Meal mate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meal mate.debug.xcconfig"; path = "Target Support Files/Pods-Meal mate/Pods-Meal mate.debug.xcconfig"; sourceTree = "<group>"; };
-		E91414C0253777A70014F342 /* Meal mate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meal mate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91414C0253777A70014F342 /* MealMunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealMunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91414C3253777A70014F342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E91414C5253777A70014F342 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E91414C7253777A70014F342 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
@@ -62,10 +64,10 @@
 		E91414CC253777A80014F342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E91414CF253777A80014F342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E91414D1253777A80014F342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E91414D6253777A80014F342 /* Meal mateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal mateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91414D6253777A80014F342 /* MealMunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealMunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91414DA253777A80014F342 /* Meal_mateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal_mateTests.swift; sourceTree = "<group>"; };
 		E91414DC253777A80014F342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E91414E1253777A80014F342 /* Meal mateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal mateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91414E1253777A80014F342 /* MealMunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealMunchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91414E5253777A80014F342 /* Meal_mateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal_mateUITests.swift; sourceTree = "<group>"; };
 		E91414E7253777A80014F342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E91414FA253778900014F342 /* ImageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewCell.xib; sourceTree = "<group>"; };
@@ -90,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A3DAB76604DEEF9F1BF2AB5 /* Pods_Meal_mate.framework in Frameworks */,
+				CCAF63EF8E9D8ED83DADA780 /* Pods_MealMunch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +118,8 @@
 			children = (
 				D8B1FEF532BA9EC82BF7D349 /* Pods-Meal mate.debug.xcconfig */,
 				4D97DFE2E70E508BF23310CB /* Pods-Meal mate.release.xcconfig */,
+				6DD10BA91B302FE25A2BB0FE /* Pods-MealMunch.debug.xcconfig */,
+				56253B365996F5373A3CDB6C /* Pods-MealMunch.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -135,9 +139,9 @@
 		E91414C1253777A70014F342 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E91414C0253777A70014F342 /* Meal mate.app */,
-				E91414D6253777A80014F342 /* Meal mateTests.xctest */,
-				E91414E1253777A80014F342 /* Meal mateUITests.xctest */,
+				E91414C0253777A70014F342 /* MealMunch.app */,
+				E91414D6253777A80014F342 /* MealMunchTests.xctest */,
+				E91414E1253777A80014F342 /* MealMunchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,7 +252,7 @@
 		F44A7344F1FA3A46B7FC076F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1CAA21A72B420403CA79B2B6 /* Pods_Meal_mate.framework */,
+				4F0A40757E233536DC438BB5 /* Pods_MealMunch.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -256,9 +260,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E91414BF253777A70014F342 /* Meal mate */ = {
+		E91414BF253777A70014F342 /* MealMunch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E91414EA253777A80014F342 /* Build configuration list for PBXNativeTarget "Meal mate" */;
+			buildConfigurationList = E91414EA253777A80014F342 /* Build configuration list for PBXNativeTarget "MealMunch" */;
 			buildPhases = (
 				4859F4047B2D1B957815B39C /* [CP] Check Pods Manifest.lock */,
 				E91414BC253777A70014F342 /* Sources */,
@@ -270,14 +274,14 @@
 			);
 			dependencies = (
 			);
-			name = "Meal mate";
+			name = MealMunch;
 			productName = "Meal mate";
-			productReference = E91414C0253777A70014F342 /* Meal mate.app */;
+			productReference = E91414C0253777A70014F342 /* MealMunch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E91414D5253777A80014F342 /* Meal mateTests */ = {
+		E91414D5253777A80014F342 /* MealMunchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E91414ED253777A80014F342 /* Build configuration list for PBXNativeTarget "Meal mateTests" */;
+			buildConfigurationList = E91414ED253777A80014F342 /* Build configuration list for PBXNativeTarget "MealMunchTests" */;
 			buildPhases = (
 				E91414D2253777A80014F342 /* Sources */,
 				E91414D3253777A80014F342 /* Frameworks */,
@@ -288,14 +292,14 @@
 			dependencies = (
 				E91414D8253777A80014F342 /* PBXTargetDependency */,
 			);
-			name = "Meal mateTests";
+			name = MealMunchTests;
 			productName = "Meal mateTests";
-			productReference = E91414D6253777A80014F342 /* Meal mateTests.xctest */;
+			productReference = E91414D6253777A80014F342 /* MealMunchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E91414E0253777A80014F342 /* Meal mateUITests */ = {
+		E91414E0253777A80014F342 /* MealMunchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E91414F0253777A80014F342 /* Build configuration list for PBXNativeTarget "Meal mateUITests" */;
+			buildConfigurationList = E91414F0253777A80014F342 /* Build configuration list for PBXNativeTarget "MealMunchUITests" */;
 			buildPhases = (
 				E91414DD253777A80014F342 /* Sources */,
 				E91414DE253777A80014F342 /* Frameworks */,
@@ -306,9 +310,9 @@
 			dependencies = (
 				E91414E3253777A80014F342 /* PBXTargetDependency */,
 			);
-			name = "Meal mateUITests";
+			name = MealMunchUITests;
 			productName = "Meal mateUITests";
-			productReference = E91414E1253777A80014F342 /* Meal mateUITests.xctest */;
+			productReference = E91414E1253777A80014F342 /* MealMunchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -333,7 +337,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E91414BB253777A70014F342 /* Build configuration list for PBXProject "Mealmate" */;
+			buildConfigurationList = E91414BB253777A70014F342 /* Build configuration list for PBXProject "MealMunch" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -346,9 +350,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E91414BF253777A70014F342 /* Meal mate */,
-				E91414D5253777A80014F342 /* Meal mateTests */,
-				E91414E0253777A80014F342 /* Meal mateUITests */,
+				E91414BF253777A70014F342 /* MealMunch */,
+				E91414D5253777A80014F342 /* MealMunchTests */,
+				E91414E0253777A80014F342 /* MealMunchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -391,15 +395,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Meal mate/Pods-Meal mate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MealMunch/Pods-MealMunch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Meal mate/Pods-Meal mate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MealMunch/Pods-MealMunch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meal mate/Pods-Meal mate-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MealMunch/Pods-MealMunch-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4859F4047B2D1B957815B39C /* [CP] Check Pods Manifest.lock */ = {
@@ -417,7 +421,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Meal mate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MealMunch-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -469,12 +473,12 @@
 /* Begin PBXTargetDependency section */
 		E91414D8253777A80014F342 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E91414BF253777A70014F342 /* Meal mate */;
+			target = E91414BF253777A70014F342 /* MealMunch */;
 			targetProxy = E91414D7253777A80014F342 /* PBXContainerItemProxy */;
 		};
 		E91414E3253777A80014F342 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E91414BF253777A70014F342 /* Meal mate */;
+			target = E91414BF253777A70014F342 /* MealMunch */;
 			targetProxy = E91414E2253777A80014F342 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -617,7 +621,7 @@
 		};
 		E91414EB253777A80014F342 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8B1FEF532BA9EC82BF7D349 /* Pods-Meal mate.debug.xcconfig */;
+			baseConfigurationReference = 6DD10BA91B302FE25A2BB0FE /* Pods-MealMunch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -636,7 +640,7 @@
 		};
 		E91414EC253777A80014F342 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D97DFE2E70E508BF23310CB /* Pods-Meal mate.release.xcconfig */;
+			baseConfigurationReference = 56253B365996F5373A3CDB6C /* Pods-MealMunch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -736,7 +740,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E91414BB253777A70014F342 /* Build configuration list for PBXProject "Mealmate" */ = {
+		E91414BB253777A70014F342 /* Build configuration list for PBXProject "MealMunch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E91414E8253777A80014F342 /* Debug */,
@@ -745,7 +749,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E91414EA253777A80014F342 /* Build configuration list for PBXNativeTarget "Meal mate" */ = {
+		E91414EA253777A80014F342 /* Build configuration list for PBXNativeTarget "MealMunch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E91414EB253777A80014F342 /* Debug */,
@@ -754,7 +758,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E91414ED253777A80014F342 /* Build configuration list for PBXNativeTarget "Meal mateTests" */ = {
+		E91414ED253777A80014F342 /* Build configuration list for PBXNativeTarget "MealMunchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E91414EE253777A80014F342 /* Debug */,
@@ -763,7 +767,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E91414F0253777A80014F342 /* Build configuration list for PBXNativeTarget "Meal mateUITests" */ = {
+		E91414F0253777A80014F342 /* Build configuration list for PBXNativeTarget "MealMunchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E91414F1253777A80014F342 /* Debug */,

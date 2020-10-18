@@ -1,4 +1,4 @@
-target 'Meal mate' do
+target 'MealMunch' do
   use_frameworks!
   pod 'Obfuscator', '~> 2.0'
 end
