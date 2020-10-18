@@ -127,9 +127,9 @@
 		E91414B7253777A70014F342 = {
 			isa = PBXGroup;
 			children = (
-				E91414C2253777A70014F342 /* Meal mate */,
-				E91414D9253777A80014F342 /* Meal mateTests */,
-				E91414E4253777A80014F342 /* Meal mateUITests */,
+				E91414C2253777A70014F342 /* MealMunch */,
+				E91414D9253777A80014F342 /* MealMunchTests */,
+				E91414E4253777A80014F342 /* MealMunchUITests */,
 				E91414C1253777A70014F342 /* Products */,
 				96CA6B0AE2262C78818FB916 /* Pods */,
 				F44A7344F1FA3A46B7FC076F /* Frameworks */,
@@ -146,7 +146,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E91414C2253777A70014F342 /* Meal mate */ = {
+		E91414C2253777A70014F342 /* MealMunch */ = {
 			isa = PBXGroup;
 			children = (
 				E99EDACE2538D3D000F438E4 /* General */,
@@ -159,25 +159,25 @@
 				E91414CE253777A80014F342 /* LaunchScreen.storyboard */,
 				E91414D1253777A80014F342 /* Info.plist */,
 			);
-			path = "Meal mate";
+			path = MealMunch;
 			sourceTree = "<group>";
 		};
-		E91414D9253777A80014F342 /* Meal mateTests */ = {
+		E91414D9253777A80014F342 /* MealMunchTests */ = {
 			isa = PBXGroup;
 			children = (
 				E91414DA253777A80014F342 /* Meal_mateTests.swift */,
 				E91414DC253777A80014F342 /* Info.plist */,
 			);
-			path = "Meal mateTests";
+			path = MealMunchTests;
 			sourceTree = "<group>";
 		};
-		E91414E4253777A80014F342 /* Meal mateUITests */ = {
+		E91414E4253777A80014F342 /* MealMunchUITests */ = {
 			isa = PBXGroup;
 			children = (
 				E91414E5253777A80014F342 /* Meal_mateUITests.swift */,
 				E91414E7253777A80014F342 /* Info.plist */,
 			);
-			path = "Meal mateUITests";
+			path = MealMunchUITests;
 			sourceTree = "<group>";
 		};
 		E91414F62537785D0014F342 /* View */ = {
@@ -626,7 +626,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Meal mate/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MealMunch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -645,7 +645,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Meal mate/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MealMunch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
