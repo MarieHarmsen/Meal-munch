@@ -1,0 +1,16 @@
+PODS:
+  - Obfuscator (2.0.0)
+
+DEPENDENCIES:
+  - Obfuscator (~> 2.0)
+
+SPEC REPOS:
+  trunk:
+    - Obfuscator
+
+SPEC CHECKSUMS:
+  Obfuscator: 9573f662415f048c1de91f99aa10626dd50e5007
+
+PODFILE CHECKSUM: 627bcc3cfd51515c79531fbd402d3cbb500cfeec
+
+COCOAPODS: 1.9.3

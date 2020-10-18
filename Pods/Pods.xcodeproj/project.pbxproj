@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C02922E779D6722B10A637D0CA9E3E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		36278962CC0C39D67A912F90C54C93FD /* Obfuscator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EABEBA5AD999E30E57965E58B3FAC40 /* Obfuscator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C580E83149EDC7979856CC5DA35CDDB /* Obfuscator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C3ECEACD92CD89AA2F888B9F919587 /* Obfuscator-dummy.m */; };
+		5A7EAB6251738F3B43A813EEF950DC79 /* Obfuscator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4836EC9526273AC0CAFDDBC6B1F116 /* Obfuscator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D06D10D4F1A4A896344274894002BDB /* Pods-Meal mate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9503FA45C02D3597F7FCFC1A96FF350 /* Pods-Meal mate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B25C5FFBEE1AD18E6E03354B2BD925 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BB128B3C49CFF8647C98D60B877F65AE /* Obfuscator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3DF534DD750AC43AD8038BB299F4BD /* Obfuscator.m */; };
+		E21F192567F7ADFECEDD8CD638FCD2E0 /* Pods-Meal mate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A55D1D6C0600B1B9EAD7A12A0DA35046 /* Pods-Meal mate-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA6841D5E14AB60B492F8F54B547BD82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0D114713AE94103B037E5CC9FE8EC49;
+			remoteInfo = Obfuscator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C3DF534DD750AC43AD8038BB299F4BD /* Obfuscator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Obfuscator.m; path = Obfuscator/Obfuscator.m; sourceTree = "<group>"; };
+		28C3ECEACD92CD89AA2F888B9F919587 /* Obfuscator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Obfuscator-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		323830A14C9A1EB566BA13C0B46E1930 /* Obfuscator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Obfuscator-Info.plist"; sourceTree = "<group>"; };
+		33EA762C0A13BBD94D9C374813B6EC6A /* Pods-Meal mate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meal mate.debug.xcconfig"; sourceTree = "<group>"; };
+		34EAD7B9DD2BAA953935B4A0964A11B4 /* Obfuscator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Obfuscator.modulemap; sourceTree = "<group>"; };
+		3E89B3957E04F36133C99FE24172E454 /* Pods-Meal mate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meal mate.release.xcconfig"; sourceTree = "<group>"; };
+		48CB3927AEA1CD16FC331F02AB4CA1C7 /* Pods-Meal mate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Meal mate-acknowledgements.plist"; sourceTree = "<group>"; };
+		5EABEBA5AD999E30E57965E58B3FAC40 /* Obfuscator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Obfuscator.h; path = Obfuscator/Obfuscator.h; sourceTree = "<group>"; };
+		69BD7E1EA770F4638D47C0FCD21072EE /* Obfuscator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Obfuscator.framework; path = Obfuscator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB78E370332D7D621A01EBD618D3126 /* Pods-Meal mate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Meal mate.modulemap"; sourceTree = "<group>"; };
+		8FC12E3CEAB90630B0E16C40F05E280F /* Pods-Meal mate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Meal mate-acknowledgements.markdown"; sourceTree = "<group>"; };
+		920D45015DCDBFBD21F0E3CC88A2EDF9 /* Obfuscator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Obfuscator.debug.xcconfig; sourceTree = "<group>"; };
+		990D4FDB9178C950A8A02C9FE5FDA693 /* Pods_Meal_mate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Meal_mate.framework; path = "Pods-Meal mate.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF2676F38FBE0403091600B174EBAD0 /* Obfuscator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Obfuscator-prefix.pch"; sourceTree = "<group>"; };
+		A55D1D6C0600B1B9EAD7A12A0DA35046 /* Pods-Meal mate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Meal mate-dummy.m"; sourceTree = "<group>"; };
+		CA4836EC9526273AC0CAFDDBC6B1F116 /* Obfuscator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Obfuscator-umbrella.h"; sourceTree = "<group>"; };
+		D55EC5A1DE3366126E3D76A6D90DFCEB /* Obfuscator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Obfuscator.release.xcconfig; sourceTree = "<group>"; };
+		D9503FA45C02D3597F7FCFC1A96FF350 /* Pods-Meal mate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Meal mate-umbrella.h"; sourceTree = "<group>"; };
+		ECF7505937AA3F8DD88B14DE9998A436 /* Pods-Meal mate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Meal mate-Info.plist"; sourceTree = "<group>"; };
+		FA3F7E699D0BBFAC2C189E823EA598D9 /* Pods-Meal mate-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meal mate-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D307A8A6E5D542FB65020DCD0A82940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B25C5FFBEE1AD18E6E03354B2BD925 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92958C00E2D13D981851B48D1ACE052E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C02922E779D6722B10A637D0CA9E3E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		285C97D9ABB988ACA61824753AEA942B /* Obfuscator */ = {
+			isa = PBXGroup;
+			children = (
+				5EABEBA5AD999E30E57965E58B3FAC40 /* Obfuscator.h */,
+				0C3DF534DD750AC43AD8038BB299F4BD /* Obfuscator.m */,
+				4321786D9AB5DE1C6E38732E3821F7E3 /* Support Files */,
+			);
+			name = Obfuscator;
+			path = Obfuscator;
+			sourceTree = "<group>";
+		};
+		4321786D9AB5DE1C6E38732E3821F7E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34EAD7B9DD2BAA953935B4A0964A11B4 /* Obfuscator.modulemap */,
+				28C3ECEACD92CD89AA2F888B9F919587 /* Obfuscator-dummy.m */,
+				323830A14C9A1EB566BA13C0B46E1930 /* Obfuscator-Info.plist */,
+				9DF2676F38FBE0403091600B174EBAD0 /* Obfuscator-prefix.pch */,
+				CA4836EC9526273AC0CAFDDBC6B1F116 /* Obfuscator-umbrella.h */,
+				920D45015DCDBFBD21F0E3CC88A2EDF9 /* Obfuscator.debug.xcconfig */,
+				D55EC5A1DE3366126E3D76A6D90DFCEB /* Obfuscator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Obfuscator";
+			sourceTree = "<group>";
+		};
+		762E6ECBC04158073518891CCA0D2E60 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F54BDE0E1FC9BDE2CEC277FE59FC4C3A /* Pods-Meal mate */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8BF84C25135F16CFDB519CACD8F2D210 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				285C97D9ABB988ACA61824753AEA942B /* Obfuscator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD5E803FC4A5D5AE2E3FE09AC2F1B2EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69BD7E1EA770F4638D47C0FCD21072EE /* Obfuscator.framework */,
+				990D4FDB9178C950A8A02C9FE5FDA693 /* Pods_Meal_mate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8BF84C25135F16CFDB519CACD8F2D210 /* Pods */,
+				AD5E803FC4A5D5AE2E3FE09AC2F1B2EB /* Products */,
+				762E6ECBC04158073518891CCA0D2E60 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F54BDE0E1FC9BDE2CEC277FE59FC4C3A /* Pods-Meal mate */ = {
+			isa = PBXGroup;
+			children = (
+				8DB78E370332D7D621A01EBD618D3126 /* Pods-Meal mate.modulemap */,
+				8FC12E3CEAB90630B0E16C40F05E280F /* Pods-Meal mate-acknowledgements.markdown */,
+				48CB3927AEA1CD16FC331F02AB4CA1C7 /* Pods-Meal mate-acknowledgements.plist */,
+				A55D1D6C0600B1B9EAD7A12A0DA35046 /* Pods-Meal mate-dummy.m */,
+				FA3F7E699D0BBFAC2C189E823EA598D9 /* Pods-Meal mate-frameworks.sh */,
+				ECF7505937AA3F8DD88B14DE9998A436 /* Pods-Meal mate-Info.plist */,
+				D9503FA45C02D3597F7FCFC1A96FF350 /* Pods-Meal mate-umbrella.h */,
+				33EA762C0A13BBD94D9C374813B6EC6A /* Pods-Meal mate.debug.xcconfig */,
+				3E89B3957E04F36133C99FE24172E454 /* Pods-Meal mate.release.xcconfig */,
+			);
+			name = "Pods-Meal mate";
+			path = "Target Support Files/Pods-Meal mate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54C52A9776AE6726D6B02D2FADFA0DD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7EAB6251738F3B43A813EEF950DC79 /* Obfuscator-umbrella.h in Headers */,
+				36278962CC0C39D67A912F90C54C93FD /* Obfuscator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6F84869A1F44FA570FC125084A6974 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D06D10D4F1A4A896344274894002BDB /* Pods-Meal mate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F771F337D42D7E947A2F0DD7AAD7511 /* Pods-Meal mate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56A5E8ECE6D9903F8D1E39D6A6CA5948 /* Build configuration list for PBXNativeTarget "Pods-Meal mate" */;
+			buildPhases = (
+				ED6F84869A1F44FA570FC125084A6974 /* Headers */,
+				F7D9B832C787E4C63E09F44157684BD9 /* Sources */,
+				1D307A8A6E5D542FB65020DCD0A82940 /* Frameworks */,
+				0559277FCE88EF080C23FCF43FB6BA69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D516C2AB68A76FD944ECC0E7C4E20674 /* PBXTargetDependency */,
+			);
+			name = "Pods-Meal mate";
+			productName = "Pods-Meal mate";
+			productReference = 990D4FDB9178C950A8A02C9FE5FDA693 /* Pods_Meal_mate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0D114713AE94103B037E5CC9FE8EC49 /* Obfuscator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5F8B1A7E3AED2FD4F6A881A49185018 /* Build configuration list for PBXNativeTarget "Obfuscator" */;
+			buildPhases = (
+				54C52A9776AE6726D6B02D2FADFA0DD1 /* Headers */,
+				6470E48444611BFEAB86414FF31B92FF /* Sources */,
+				92958C00E2D13D981851B48D1ACE052E /* Frameworks */,
+				2F6810221AC21512CE615E4C7CC12B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Obfuscator;
+			productName = Obfuscator;
+			productReference = 69BD7E1EA770F4638D47C0FCD21072EE /* Obfuscator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AD5E803FC4A5D5AE2E3FE09AC2F1B2EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0D114713AE94103B037E5CC9FE8EC49 /* Obfuscator */,
+				3F771F337D42D7E947A2F0DD7AAD7511 /* Pods-Meal mate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0559277FCE88EF080C23FCF43FB6BA69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6810221AC21512CE615E4C7CC12B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6470E48444611BFEAB86414FF31B92FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C580E83149EDC7979856CC5DA35CDDB /* Obfuscator-dummy.m in Sources */,
+				BB128B3C49CFF8647C98D60B877F65AE /* Obfuscator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D9B832C787E4C63E09F44157684BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21F192567F7ADFECEDD8CD638FCD2E0 /* Pods-Meal mate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D516C2AB68A76FD944ECC0E7C4E20674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Obfuscator;
+			target = B0D114713AE94103B037E5CC9FE8EC49 /* Obfuscator */;
+			targetProxy = BA6841D5E14AB60B492F8F54B547BD82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B4D22AE9AF2AD8E14D3070DB9C7FE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D55EC5A1DE3366126E3D76A6D90DFCEB /* Obfuscator.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Obfuscator/Obfuscator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Obfuscator/Obfuscator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Obfuscator/Obfuscator.modulemap";
+				PRODUCT_MODULE_NAME = Obfuscator;
+				PRODUCT_NAME = Obfuscator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A859EE8FBCB21320C92C2A490B39792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33EA762C0A13BBD94D9C374813B6EC6A /* Pods-Meal mate.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Meal mate/Pods-Meal mate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Meal mate/Pods-Meal mate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		200597645C8C43FB8BAE86E347408D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E89B3957E04F36133C99FE24172E454 /* Pods-Meal mate.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Meal mate/Pods-Meal mate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Meal mate/Pods-Meal mate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F99A21EDBD93EE30CB9B0014DEF5300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920D45015DCDBFBD21F0E3CC88A2EDF9 /* Obfuscator.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Obfuscator/Obfuscator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Obfuscator/Obfuscator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Obfuscator/Obfuscator.modulemap";
+				PRODUCT_MODULE_NAME = Obfuscator;
+				PRODUCT_NAME = Obfuscator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56A5E8ECE6D9903F8D1E39D6A6CA5948 /* Build configuration list for PBXNativeTarget "Pods-Meal mate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A859EE8FBCB21320C92C2A490B39792 /* Debug */,
+				200597645C8C43FB8BAE86E347408D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5F8B1A7E3AED2FD4F6A881A49185018 /* Build configuration list for PBXNativeTarget "Obfuscator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F99A21EDBD93EE30CB9B0014DEF5300 /* Debug */,
+				0B4D22AE9AF2AD8E14D3070DB9C7FE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

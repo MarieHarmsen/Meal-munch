@@ -1,10 +1,13 @@
 import UIKit
 
-class HomeTableViewController: UITableViewController {
+class HomeTableViewController: UITableViewController, HomeViewModelDelegate {
     private var sharedAppearance = AppearanceHandler()
+    private var viewModelDelegate: HomeViewModelDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        viewModelDelegate = self
+        getData()
         registerViews()
         setUpViews()
     }
@@ -19,6 +22,10 @@ class HomeTableViewController: UITableViewController {
     func setUpViews() {
         self.title = CommonStrings.AppTitle
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: sharedAppearance.headingText]
+    }
+
+    func getData() {
+        GetRecipiesViewModel(with: viewModelDelegate).getData()
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -53,6 +60,16 @@ class HomeTableViewController: UITableViewController {
             let headerView = view as? UITableViewHeaderFooterView
             headerView?.contentView.layer.cornerRadius = 15
             headerView?.contentView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+    }
+}
+
+//MARK: Delegate
+extension HomeTableViewController {
+    func navigateToErrorScreen() {
+        let storyBoard = UIStoryboard(name: "GenericScreenWithImage", bundle: nil)
+        guard let errorViewController = storyBoard.instantiateViewController(withIdentifier: "GenericScreenWithImage") as? GenericScreenWithImageViewController else { return }
+                self.present(errorViewController, animated: true, completion: nil)
+        errorViewController.configure(imageName: "ErrorImage", description: CommonStrings.errorDescription)
     }
 }
 
