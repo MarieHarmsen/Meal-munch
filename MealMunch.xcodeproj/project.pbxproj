@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CCAF63EF8E9D8ED83DADA780 /* Pods_MealMunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0A40757E233536DC438BB5 /* Pods_MealMunch.framework */; };
 		E91414C4253777A70014F342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91414C3253777A70014F342 /* AppDelegate.swift */; };
 		E91414C6253777A70014F342 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91414C5253777A70014F342 /* SceneDelegate.swift */; };
 		E91414C8253777A70014F342 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91414C7253777A70014F342 /* HomeTableViewController.swift */; };
@@ -51,12 +50,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D97DFE2E70E508BF23310CB /* Pods-Meal mate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meal mate.release.xcconfig"; path = "Target Support Files/Pods-Meal mate/Pods-Meal mate.release.xcconfig"; sourceTree = "<group>"; };
-		4F0A40757E233536DC438BB5 /* Pods_MealMunch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MealMunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56253B365996F5373A3CDB6C /* Pods-MealMunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealMunch.release.xcconfig"; path = "Target Support Files/Pods-MealMunch/Pods-MealMunch.release.xcconfig"; sourceTree = "<group>"; };
-		6DD10BA91B302FE25A2BB0FE /* Pods-MealMunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealMunch.debug.xcconfig"; path = "Target Support Files/Pods-MealMunch/Pods-MealMunch.debug.xcconfig"; sourceTree = "<group>"; };
-		D8B1FEF532BA9EC82BF7D349 /* Pods-Meal mate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meal mate.debug.xcconfig"; path = "Target Support Files/Pods-Meal mate/Pods-Meal mate.debug.xcconfig"; sourceTree = "<group>"; };
-		E91414C0253777A70014F342 /* MealMunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealMunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91414C3253777A70014F342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E91414C5253777A70014F342 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E91414C7253777A70014F342 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
@@ -64,15 +57,16 @@
 		E91414CC253777A80014F342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E91414CF253777A80014F342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E91414D1253777A80014F342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E91414D6253777A80014F342 /* MealMunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealMunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91414DA253777A80014F342 /* Meal_mateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal_mateTests.swift; sourceTree = "<group>"; };
 		E91414DC253777A80014F342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E91414E1253777A80014F342 /* MealMunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealMunchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91414E5253777A80014F342 /* Meal_mateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal_mateUITests.swift; sourceTree = "<group>"; };
 		E91414E7253777A80014F342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E91414FA253778900014F342 /* ImageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewCell.xib; sourceTree = "<group>"; };
 		E914156D253779930014F342 /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
 		E91415E025377BF70014F342 /* AppearanceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceHandler.swift; sourceTree = "<group>"; };
+		E9561636253C8FF700D95D7B /* MealMunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealMunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9561637253C8FF700D95D7B /* MealMunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MealMunchTests.xctest; path = "/Users/mharmsen/Documents/Github personal/Meal Munch Kraken/Meal-munch/build/Debug-iphoneos/MealMunchTests.xctest"; sourceTree = "<absolute>"; };
+		E9561638253C8FF700D95D7B /* MealMunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MealMunchUITests.xctest; path = "/Users/mharmsen/Documents/Github personal/Meal Munch Kraken/Meal-munch/build/Debug-iphoneos/MealMunchUITests.xctest"; sourceTree = "<absolute>"; };
 		E99EDACF2538D3E400F438E4 /* Common.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Common.strings; sourceTree = "<group>"; };
 		E99EDBC52538DA8000F438E4 /* CommonStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonStrings.swift; sourceTree = "<group>"; };
 		E99EDBD62539CD5100F438E4 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
@@ -92,7 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCAF63EF8E9D8ED83DADA780 /* Pods_MealMunch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,37 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		96CA6B0AE2262C78818FB916 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D8B1FEF532BA9EC82BF7D349 /* Pods-Meal mate.debug.xcconfig */,
-				4D97DFE2E70E508BF23310CB /* Pods-Meal mate.release.xcconfig */,
-				6DD10BA91B302FE25A2BB0FE /* Pods-MealMunch.debug.xcconfig */,
-				56253B365996F5373A3CDB6C /* Pods-MealMunch.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		E91414B7253777A70014F342 = {
 			isa = PBXGroup;
 			children = (
 				E91414C2253777A70014F342 /* MealMunch */,
 				E91414D9253777A80014F342 /* MealMunchTests */,
 				E91414E4253777A80014F342 /* MealMunchUITests */,
-				E91414C1253777A70014F342 /* Products */,
-				96CA6B0AE2262C78818FB916 /* Pods */,
-				F44A7344F1FA3A46B7FC076F /* Frameworks */,
+				E9561636253C8FF700D95D7B /* MealMunch.app */,
 			);
-			sourceTree = "<group>";
-		};
-		E91414C1253777A70014F342 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E91414C0253777A70014F342 /* MealMunch.app */,
-				E91414D6253777A80014F342 /* MealMunchTests.xctest */,
-				E91414E1253777A80014F342 /* MealMunchUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E91414C2253777A70014F342 /* MealMunch */ = {
@@ -249,14 +219,6 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		F44A7344F1FA3A46B7FC076F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4F0A40757E233536DC438BB5 /* Pods_MealMunch.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,11 +226,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E91414EA253777A80014F342 /* Build configuration list for PBXNativeTarget "MealMunch" */;
 			buildPhases = (
-				4859F4047B2D1B957815B39C /* [CP] Check Pods Manifest.lock */,
 				E91414BC253777A70014F342 /* Sources */,
 				E91414BD253777A70014F342 /* Frameworks */,
 				E91414BE253777A70014F342 /* Resources */,
-				34DF2A6D2CC82BB58B31FCB1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,7 +236,7 @@
 			);
 			name = MealMunch;
 			productName = "Meal mate";
-			productReference = E91414C0253777A70014F342 /* MealMunch.app */;
+			productReference = E9561636253C8FF700D95D7B /* MealMunch.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E91414D5253777A80014F342 /* MealMunchTests */ = {
@@ -294,7 +254,7 @@
 			);
 			name = MealMunchTests;
 			productName = "Meal mateTests";
-			productReference = E91414D6253777A80014F342 /* MealMunchTests.xctest */;
+			productReference = E9561637253C8FF700D95D7B /* MealMunchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E91414E0253777A80014F342 /* MealMunchUITests */ = {
@@ -312,7 +272,7 @@
 			);
 			name = MealMunchUITests;
 			productName = "Meal mateUITests";
-			productReference = E91414E1253777A80014F342 /* MealMunchUITests.xctest */;
+			productReference = E9561638253C8FF700D95D7B /* MealMunchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -346,7 +306,7 @@
 				Base,
 			);
 			mainGroup = E91414B7253777A70014F342;
-			productRefGroup = E91414C1253777A70014F342 /* Products */;
+			productRefGroup = E91414B7253777A70014F342;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -387,48 +347,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		34DF2A6D2CC82BB58B31FCB1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MealMunch/Pods-MealMunch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MealMunch/Pods-MealMunch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MealMunch/Pods-MealMunch-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4859F4047B2D1B957815B39C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MealMunch-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E91414BC253777A70014F342 /* Sources */ = {
@@ -621,7 +539,6 @@
 		};
 		E91414EB253777A80014F342 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DD10BA91B302FE25A2BB0FE /* Pods-MealMunch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -631,7 +548,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.web.marieharmsenresume.Meal-mate";
+				PRODUCT_BUNDLE_IDENTIFIER = app.web.marieharmsenresume.MealMunch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -640,7 +557,6 @@
 		};
 		E91414EC253777A80014F342 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56253B365996F5373A3CDB6C /* Pods-MealMunch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -650,7 +566,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.web.marieharmsenresume.Meal-mate";
+				PRODUCT_BUNDLE_IDENTIFIER = app.web.marieharmsenresume.MealMunch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
