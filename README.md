@@ -19,7 +19,11 @@ The API has a lot of different fields such as nutritional value, cusine and reci
 - Error Screen
 
 ## Screenshots
-
+![](Screenshots/launch.png)
+![](Screenshots/home.png)
+![](Screenshots/error.png)
+![](Screenshots/loading.png)
+![](Screenshots/credit.png)
 
 ## Requirements
 - iOS 8.0+
