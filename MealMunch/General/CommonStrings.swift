@@ -9,6 +9,10 @@ internal enum CommonStrings {
     internal static let loading = CommonStrings.tr("Common","Loading")
     /// Try this on Instagram and tag us!
     internal static let tryThis = CommonStrings.tr("Common","TryThis")
+    /// Search
+    internal static let search = CommonStrings.tr("Common","Search")
+    /// Enter ingredients to see what delicious recipes you can create
+    internal static let searchDescription = CommonStrings.tr("Common","SearchDescription")
 
     /// Credits
     internal static let credits = CommonStrings.tr("Common","Credits")
@@ -20,7 +24,8 @@ internal enum CommonStrings {
     internal static let creditListThree = CommonStrings.tr("Common","creditListThree")
     /// Logo and app icon created by myself on www.freelogodesign.org
     internal static let creditListFour = CommonStrings.tr("Common","creditListFour")
-    /// Third party API free security passer = https://gist.github.com/DejanEnspyra/80e259e3c9adf5e46632631b49cd1007
+    /// Third party API free security passer =
+    /// https://gist.github.com/DejanEnspyra/80e259e3c9adf5e46632631b49cd1007
     internal static let creditListFive = CommonStrings.tr("Common","creditListFive")
 }
 

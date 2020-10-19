@@ -4,6 +4,7 @@ class HomeTableViewController: UITableViewController, HomeViewModelDelegate {
     private var sharedAppearance = AppearanceHandler()
     private var viewModelDelegate: HomeViewModelDelegate?
     private var viewModel: HomeTableViewModel?
+    private let constants = Constants()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,10 +19,12 @@ class HomeTableViewController: UITableViewController, HomeViewModelDelegate {
     }
 
     func registerViews() {
-        let cellNib = UINib(nibName: "ImageViewCell", bundle: nil)
-        self.tableView.register(cellNib, forCellReuseIdentifier: "ImageViewCell")
-        let nib = UINib(nibName: "HeaderView", bundle: nil)
-        tableView.register(nib, forHeaderFooterViewReuseIdentifier: "HeaderView")
+        let searchCellNib = UINib(nibName: "SearchCell", bundle: nil)
+        self.tableView.register(searchCellNib, forCellReuseIdentifier: "SearchCell")
+        let imageCellNib = UINib(nibName: "ImageViewCell", bundle: nil)
+        self.tableView.register(imageCellNib, forCellReuseIdentifier: "ImageViewCell")
+        let headerNib = UINib(nibName: "HeaderView", bundle: nil)
+        tableView.register(headerNib, forHeaderFooterViewReuseIdentifier: "HeaderView")
     }
 
     func setUpViews() {
@@ -35,8 +38,6 @@ class HomeTableViewController: UITableViewController, HomeViewModelDelegate {
         )
         self.navigationItem.rightBarButtonItem = rightButtonItem
         self.navigationController?.navigationBar.tintColor = sharedAppearance.mainColour
-        let topInset = 10
-        tableView.contentInset.top = CGFloat(topInset)
     }
 
     @objc func rightButtonAction(sender: UIBarButtonItem) {
@@ -65,27 +66,44 @@ class HomeTableViewController: UITableViewController, HomeViewModelDelegate {
     }
 
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: "HeaderView") as? HeaderView
-        header?.configure(title: viewModel?.getMealTitle(index: section), subTitle: "")
-        return header
+        if section > 0 {
+            let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: "HeaderView") as? HeaderView
+            header?.configure(title: viewModel?.getMealTitle(index: section), subTitle: "")
+            return header
+        }
+        return UIView()
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let sectionIndex = indexPath.section
+        if sectionIndex == 0 {
+            return createSearchCell() ?? UITableViewCell()
+        }
+        return createImageCell(sectionIndex: sectionIndex) ?? UITableViewCell()
+    }
+
+    func createSearchCell() -> UITableViewCell? {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "SearchCell") as? SearchCell
+        cell?.configure(viewDelegate: viewModel as! SearchViewDelegate)
+        return cell
+    }
+
+    func createImageCell(sectionIndex: Int) -> UITableViewCell? {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ImageViewCell") as? ImageViewCell
         cell?.contentView.layer.cornerRadius = 0
         cell?.contentView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
-        cell?.configure(imageURL: (viewModel?.getMealImageURL(index: sectionIndex) ?? URL(string:""))!)
-        return cell ?? UITableViewCell()
+        guard let imageUrl = viewModel?.getMealImageURL(index: sectionIndex) else { return UITableViewCell() }
+        cell?.configure(imageURL: imageUrl)
+        return cell
     }
 
     public override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return CGFloat(Constants().rowHeight)
+        return section == 0 ? 0 : CGFloat(constants.rowHeight)
     }
 
     override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
             let headerView = view as? UITableViewHeaderFooterView
-        headerView?.contentView.layer.cornerRadius = CGFloat(Constants().cornerRadius)
+        headerView?.contentView.layer.cornerRadius = CGFloat(constants.cornerRadius)
         headerView?.contentView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
     }
 }
