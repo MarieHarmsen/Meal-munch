@@ -15,11 +15,11 @@ struct AppearanceHandler {
     }
 
     var subTitleColour: UIColor {
-        return UIColor(red: 24, green: 24, blue: 24, alpha: 1)
+        return UIColor(red: 24/255, green: 24/255, blue: 24/255, alpha: 1.0)
     }
 
     var whiteColour: UIColor {
-        return UIColor(red: 255, green: 255, blue: 255, alpha: 1)
+        return UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1.0)
     }
 
     var headingText: UIFont {
@@ -27,10 +27,10 @@ struct AppearanceHandler {
     }
 
     var mainColour: UIColor {
-        return UIColor(red: 168, green: 219, blue: 168, alpha: 1)
+        return UIColor(red: 168/255, green: 219/255, blue: 168/255, alpha: 1.0)
     }
 
     var secondaryColour: UIColor {
-        return UIColor(red: 121, green: 189, blue: 154, alpha: 1)
+        return UIColor(red: 121/255, green: 189/255, blue: 154/255, alpha: 1.0)
     }
 }

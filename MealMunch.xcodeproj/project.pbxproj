@@ -17,6 +17,11 @@
 		E914156E253779930014F342 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914156D253779930014F342 /* ImageViewCell.swift */; };
 		E91415E125377BF70014F342 /* AppearanceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91415E025377BF70014F342 /* AppearanceHandler.swift */; };
 		E9561687253C924500D95D7B /* MealMunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9561686253C924500D95D7B /* MealMunchTests.swift */; };
+		E982E7EF253CE2E8001E0DEA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E982E7EE253CE2E8001E0DEA /* Constants.swift */; };
+		E982E7FD253D0596001E0DEA /* CreditViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E982E7FC253D0596001E0DEA /* CreditViewController.storyboard */; };
+		E982E801253D05E4001E0DEA /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E982E800253D05E4001E0DEA /* CreditViewController.swift */; };
+		E982E809253D176A001E0DEA /* RecipeViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E982E808253D176A001E0DEA /* RecipeViewData.swift */; };
+		E982E811253D17F4001E0DEA /* RecipiesViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E982E810253D17F3001E0DEA /* RecipiesViewData.swift */; };
 		E99EDAD02538D3E400F438E4 /* Common.strings in Resources */ = {isa = PBXBuildFile; fileRef = E99EDACF2538D3E400F438E4 /* Common.strings */; };
 		E99EDBC62538DA8000F438E4 /* CommonStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99EDBC52538DA8000F438E4 /* CommonStrings.swift */; };
 		E99EDBD72539CD5100F438E4 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E99EDBD62539CD5100F438E4 /* HeaderView.xib */; };
@@ -25,7 +30,7 @@
 		E9B6729E253C72F600441238 /* GenericScreenWithImage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B6729D253C72F600441238 /* GenericScreenWithImage.storyboard */; };
 		E9B672A6253C73FA00441238 /* GenericScreenWithImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B672A5253C73FA00441238 /* GenericScreenWithImageViewController.swift */; };
 		E9B672AE253C75DB00441238 /* HomeViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B672AD253C75DB00441238 /* HomeViewControllerDelegate.swift */; };
-		E9E584A8253B7C3D0073CA7A /* GetRecipiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E584A7253B7C3D0073CA7A /* GetRecipiesViewModel.swift */; };
+		E9E584A8253B7C3D0073CA7A /* HomeTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E584A7253B7C3D0073CA7A /* HomeTableViewModel.swift */; };
 		E9E584B0253B7D7B0073CA7A /* Recipie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E584AF253B7D7B0073CA7A /* Recipie.swift */; };
 		E9E584B8253B81830073CA7A /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E584B7253B81830073CA7A /* Meals.swift */; };
 		E9E584C0253B922C0073CA7A /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E584BF253B922C0073CA7A /* APIKeys.swift */; };
@@ -53,9 +58,14 @@
 		E914156D253779930014F342 /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
 		E91415E025377BF70014F342 /* AppearanceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceHandler.swift; sourceTree = "<group>"; };
 		E9561636253C8FF700D95D7B /* MealMunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealMunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9561684253C924500D95D7B /* MealMunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealMunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9561684253C924500D95D7B /* MealMunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MealMunchTests.xctest; path = "/Users/mharmsen/Documents/Github personal/Meal Munch Kraken/Meal-munch/build/Debug-iphoneos/MealMunchTests.xctest"; sourceTree = "<absolute>"; };
 		E9561686253C924500D95D7B /* MealMunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMunchTests.swift; sourceTree = "<group>"; };
 		E9561688253C924500D95D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E982E7EE253CE2E8001E0DEA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E982E7FC253D0596001E0DEA /* CreditViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreditViewController.storyboard; sourceTree = "<group>"; };
+		E982E800253D05E4001E0DEA /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
+		E982E808253D176A001E0DEA /* RecipeViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewData.swift; sourceTree = "<group>"; };
+		E982E810253D17F3001E0DEA /* RecipiesViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipiesViewData.swift; sourceTree = "<group>"; };
 		E99EDACF2538D3E400F438E4 /* Common.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Common.strings; sourceTree = "<group>"; };
 		E99EDBC52538DA8000F438E4 /* CommonStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonStrings.swift; sourceTree = "<group>"; };
 		E99EDBD62539CD5100F438E4 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
@@ -64,7 +74,7 @@
 		E9B6729D253C72F600441238 /* GenericScreenWithImage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GenericScreenWithImage.storyboard; sourceTree = "<group>"; };
 		E9B672A5253C73FA00441238 /* GenericScreenWithImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericScreenWithImageViewController.swift; sourceTree = "<group>"; };
 		E9B672AD253C75DB00441238 /* HomeViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerDelegate.swift; sourceTree = "<group>"; };
-		E9E584A7253B7C3D0073CA7A /* GetRecipiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRecipiesViewModel.swift; sourceTree = "<group>"; };
+		E9E584A7253B7C3D0073CA7A /* HomeTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewModel.swift; sourceTree = "<group>"; };
 		E9E584AF253B7D7B0073CA7A /* Recipie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipie.swift; sourceTree = "<group>"; };
 		E9E584B7253B81830073CA7A /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
 		E9E584BF253B922C0073CA7A /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
@@ -93,7 +103,6 @@
 			children = (
 				E91414C2253777A70014F342 /* MealMunch */,
 				E9561636253C8FF700D95D7B /* MealMunch.app */,
-				E9561684253C924500D95D7B /* MealMunchTests.xctest */,
 				E9561685253C924500D95D7B /* MealMunchTests */,
 			);
 			sourceTree = "<group>";
@@ -108,7 +117,6 @@
 				E91414C3253777A70014F342 /* AppDelegate.swift */,
 				E91414C5253777A70014F342 /* SceneDelegate.swift */,
 				E91414CC253777A80014F342 /* Assets.xcassets */,
-				E91414CE253777A80014F342 /* LaunchScreen.storyboard */,
 				E91414D1253777A80014F342 /* Info.plist */,
 			);
 			path = MealMunch;
@@ -117,14 +125,17 @@
 		E91414F62537785D0014F342 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E91414CE253777A80014F342 /* LaunchScreen.storyboard */,
 				E9B672AD253C75DB00441238 /* HomeViewControllerDelegate.swift */,
 				E91414C7253777A70014F342 /* HomeTableViewController.swift */,
+				E982E7FC253D0596001E0DEA /* CreditViewController.storyboard */,
 				E9B672A5253C73FA00441238 /* GenericScreenWithImageViewController.swift */,
 				E91414C9253777A70014F342 /* Home.storyboard */,
 				E91414F92537787C0014F342 /* Xibs */,
 				E914156D253779930014F342 /* ImageViewCell.swift */,
 				E99EDBDB2539CDC000F438E4 /* HeaderView.swift */,
 				E9B6729D253C72F600441238 /* GenericScreenWithImage.storyboard */,
+				E982E800253D05E4001E0DEA /* CreditViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -141,7 +152,9 @@
 		E91414F82537786C0014F342 /* View model */ = {
 			isa = PBXGroup;
 			children = (
-				E9E584A6253B7C250073CA7A /* Service */,
+				E9E584A7253B7C3D0073CA7A /* HomeTableViewModel.swift */,
+				E982E808253D176A001E0DEA /* RecipeViewData.swift */,
+				E982E810253D17F3001E0DEA /* RecipiesViewData.swift */,
 			);
 			path = "View model";
 			sourceTree = "<group>";
@@ -172,6 +185,7 @@
 				E99EDACF2538D3E400F438E4 /* Common.strings */,
 				E99EDBC52538DA8000F438E4 /* CommonStrings.swift */,
 				E9E584BF253B922C0073CA7A /* APIKeys.swift */,
+				E982E7EE253CE2E8001E0DEA /* Constants.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -182,14 +196,6 @@
 				E9B6728E253C6B9C00441238 /* Obfuscator.swift */,
 			);
 			path = "Third Party";
-			sourceTree = "<group>";
-		};
-		E9E584A6253B7C250073CA7A /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				E9E584A7253B7C3D0073CA7A /* GetRecipiesViewModel.swift */,
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E982E7FD253D0596001E0DEA /* CreditViewController.storyboard in Resources */,
 				E91414FB253778900014F342 /* ImageViewCell.xib in Resources */,
 				E91414D0253777A80014F342 /* LaunchScreen.storyboard in Resources */,
 				E91414CD253777A80014F342 /* Assets.xcassets in Resources */,
@@ -297,12 +304,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E584C0253B922C0073CA7A /* APIKeys.swift in Sources */,
-				E9E584A8253B7C3D0073CA7A /* GetRecipiesViewModel.swift in Sources */,
+				E9E584A8253B7C3D0073CA7A /* HomeTableViewModel.swift in Sources */,
 				E99EDBC62538DA8000F438E4 /* CommonStrings.swift in Sources */,
 				E91414C8253777A70014F342 /* HomeTableViewController.swift in Sources */,
 				E9E584B0253B7D7B0073CA7A /* Recipie.swift in Sources */,
 				E9E584B8253B81830073CA7A /* Meals.swift in Sources */,
 				E91415E125377BF70014F342 /* AppearanceHandler.swift in Sources */,
+				E982E809253D176A001E0DEA /* RecipeViewData.swift in Sources */,
 				E99EDBDC2539CDC000F438E4 /* HeaderView.swift in Sources */,
 				E914156E253779930014F342 /* ImageViewCell.swift in Sources */,
 				E91414C4253777A70014F342 /* AppDelegate.swift in Sources */,
@@ -310,6 +318,9 @@
 				E91414C6253777A70014F342 /* SceneDelegate.swift in Sources */,
 				E9B672A6253C73FA00441238 /* GenericScreenWithImageViewController.swift in Sources */,
 				E9B6728F253C6B9C00441238 /* Obfuscator.swift in Sources */,
+				E982E7EF253CE2E8001E0DEA /* Constants.swift in Sources */,
+				E982E811253D17F4001E0DEA /* RecipiesViewData.swift in Sources */,
+				E982E801253D05E4001E0DEA /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

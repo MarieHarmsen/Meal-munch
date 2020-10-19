@@ -1,2 +1,11 @@
 "Title.AppName" = "Meal Munch";
 "Error.GenericError" = "An error occured, please try again later.";
+"Loading" = "Loading...";
+"TryThis" = "Try this on Instagram and tag us!";
+//MARK: Credits
+"Credits" = "Credits";
+"creditListOne" = "Placeholder image: https://icon-library.com/icon/placeholder-image-icon-21.html";
+"creditListTwo" = "Error screen image: https://www.glazestock.com/image/jBjjMBb9K/free";
+"creditListThree" = "Loading screen image: https://www.glazestock.com/image/DTBng4Mc6";
+"creditListFour" = "Logo and app icon created by myself on www.freelogodesign.org";
+"creditListFive" = "Third party API free security passer = https://gist.github.com/DejanEnspyra/80e259e3c9adf5e46632631b49cd1007";

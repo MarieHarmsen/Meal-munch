@@ -1,13 +1,13 @@
 class Meals: Codable {
-    let id : Int?
-    let title : String?
-    let readyInMinutes : Double?
-    let image : String?
+    var id: Int?
+    var title: String?
+    var imageType: String?
+    var image: String?
 
-    public init(id: Int?, title: String?, readyInMinutes: Double?, image: String?) {
-            self.id = id
+    public init(id: Int?, title: String?, imageType: String?, image: String?) {
+        self.id = id
         self.title = title
-        self.readyInMinutes = readyInMinutes
+        self.imageType = imageType
         self.image = image
     }
 }
