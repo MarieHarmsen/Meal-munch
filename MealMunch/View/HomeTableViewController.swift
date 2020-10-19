@@ -84,7 +84,9 @@ class HomeTableViewController: UITableViewController, HomeViewModelDelegate {
 
     func createSearchCell() -> UITableViewCell? {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SearchCell") as? SearchCell
-        cell?.configure(viewDelegate: viewModel as! SearchViewDelegate)
+        if let viewModel = viewModel {
+            cell?.configure(viewDelegate: viewModel)
+        }
         return cell
     }
 
