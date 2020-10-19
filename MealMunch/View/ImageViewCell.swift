@@ -19,7 +19,7 @@ class ImageViewCell: UITableViewCell {
 
     func setUpView() {
         images.image = UIImage(named: "ImagePlaceholder")
-        images.layer.cornerRadius = 15
+        images.layer.cornerRadius = CGFloat(Constants().cornerRadius)
         descriptionLabel.text = CommonStrings.tryThis
     }
 

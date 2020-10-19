@@ -7,17 +7,34 @@ enum recipeKeys: String {
     case number = "number"
 }
 
-class HomeTableViewModel {
+class HomeTableViewModel: SearchViewDelegate {
+    func didTapSearch(query: String) {
+        self.query = query
+        isValidSearchData(query: query) ? getData() : viewModelDelegate?.navigateToErrorScreen()
+    }
+
+    func isValidSearchData(query: String) -> Bool {
+        for character in query {
+            if !character.isLetter {
+                return false
+            }
+        }
+        return true
+    }
+
     weak var viewModelDelegate: HomeViewModelDelegate?
-    var recipeViewData : RecipeViewData?
+    var searchViewDelegate: SearchViewDelegate?
+    private var recipeViewData : RecipeViewData?
+    private var query = "yoghurt"
 
     init(with viewModelDelegate: HomeViewModelDelegate?) {
         self.viewModelDelegate = viewModelDelegate
+        self.searchViewDelegate = self
     }
 
     func getData() {
         self.viewModelDelegate?.showLoadingScreen()
-        guard let url = URL(string: "https://api.spoonacular.com/recipes/complexSearch?query=yoghurt&type&apiKey=\(APIKeys().getSpoonfulAPIKey())") else {
+        guard let url = URL(string: "https://api.spoonacular.com/recipes/complexSearch?query=\(query)&type&apiKey=\(APIKeys().getSpoonfulAPIKey())") else {
             showErrorScreen()
             return
         }
@@ -49,10 +66,11 @@ class HomeTableViewModel {
     }
 
     func getSectionCount() -> Int {
-        if recipeViewData?.meals?.count ?? 0 >= Constants().MaxNumberOfRecipes {
-            return Constants().MaxNumberOfRecipes
+        guard let amountOfRecipies = recipeViewData?.meals?.count else { return 1 }
+        if amountOfRecipies >= Constants().MaxNumberOfRecipes {
+            return Constants().MaxNumberOfRecipes+1
         }
-        return recipeViewData?.meals?.count ?? 0
+        return amountOfRecipies+1
     }
 
     func getMealTitle(index: Int) -> String {

@@ -2,6 +2,9 @@
 "Error.GenericError" = "An error occured, please try again later.";
 "Loading" = "Loading...";
 "TryThis" = "Try this on Instagram and tag us!";
+"Search" = "Search";
+"SearchDescription" = "Enter ingredients to see what delicious recipes you can create";
+
 //MARK: Credits
 "Credits" = "Credits";
 "creditListOne" = "Placeholder image: https://icon-library.com/icon/placeholder-image-icon-21.html";
