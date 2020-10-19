@@ -8,10 +8,11 @@ class GenericScreenWithImageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.modalPresentationStyle = .fullScreen
     }
 
-    func configure(imageName: String, description: String) {
-        imageView.image = UIImage(named: "ErrorImage")
+    public func configure(imageName: String, description: String) {
+        imageView.image = UIImage(named: imageName)
         descriptionLabel.text = description
         descriptionLabel.font = sharedAppearance.descriptionFont(withSize: 11)
     }

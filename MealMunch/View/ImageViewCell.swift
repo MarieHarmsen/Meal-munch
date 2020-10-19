@@ -6,7 +6,6 @@ class ImageViewCell: UITableViewCell {
     @IBOutlet private weak var descriptionLabel: UILabel!
     @IBOutlet private weak var images: UIImageView!
     @IBOutlet private weak var imagesView: UIView!
-    @IBOutlet private weak var pageController: UIPageControl!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,6 +20,18 @@ class ImageViewCell: UITableViewCell {
     func setUpView() {
         images.image = UIImage(named: "ImagePlaceholder")
         images.layer.cornerRadius = 15
-        pageController.tintColor = sharedAppearance.secondaryColour
+        descriptionLabel.text = CommonStrings.tryThis
+    }
+
+    func configure(imageURL: URL) {
+        images.image = downloadImage(imageURL: imageURL)
+    }
+
+    func downloadImage(imageURL: URL) -> UIImage? {
+        let data = try? Data(contentsOf: imageURL)
+        if let imageData = data {
+            return UIImage(data: imageData)
+        }
+        return UIImage(named: "ImagePlaceholder")
     }
 }

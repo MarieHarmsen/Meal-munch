@@ -17,4 +17,9 @@ class HeaderView: UITableViewHeaderFooterView {
         titleLabel.font = sharedAppearance.headingBoldFont(withSize: 18)
         subTitleLabel.font = sharedAppearance.subTitleFont(withSize: 13)
     }
+
+    func configure(title: String?, subTitle: String?) {
+        titleLabel.text = title
+        subTitleLabel.text = subTitle
+    }
 }
