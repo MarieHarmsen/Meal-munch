@@ -1,32 +1,22 @@
-//
-//  MealMunchTests.swift
-//  MealMunchTests
-//
-//  Created by Marie Harmsen on 18/10/2020.
-//
-
 import XCTest
+@testable import MealMunch
 
 class MealMunchTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    private var viewModelDelegate: HomeViewModelDelegate?
+    private var viewModel: HomeTableViewModel!
+    
+    override func setUp() {
+        super.setUp()
+        viewModel = HomeTableViewModel(with: viewModelDelegate)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testValidSearchData() {
+        let searchData = "brownie"
+        XCTAssertTrue(viewModel.isValidSearchData(query: searchData))
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testInValidSearchData() {
+        let searchData = "brownie123"
+        XCTAssertFalse(viewModel.isValidSearchData(query: searchData))
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
