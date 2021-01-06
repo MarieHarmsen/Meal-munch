@@ -8,7 +8,7 @@ enum recipeKeys: String {
 }
 
 class HomeTableViewModel {
-    weak var viewModelDelegate: HomeViewModelDelegate?
+    private weak var viewModelDelegate: HomeViewModelDelegate?
     var searchViewDelegate: SearchViewDelegate?
     private var recipeViewData : RecipeViewData?
     private var kOtherRowCount = 1
