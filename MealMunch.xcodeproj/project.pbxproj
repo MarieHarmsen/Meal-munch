@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E3B57A5F00B8DE42C703E1A /* Pods_MealMunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0DDAB73B22D200F05301EB /* Pods_MealMunch.framework */; };
+		DBEF22A5547F954E0DB42598 /* Pods_MealMunchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615F4497A49749B1A813E65E /* Pods_MealMunchTests.framework */; };
 		E91414C4253777A70014F342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91414C3253777A70014F342 /* AppDelegate.swift */; };
 		E91414C6253777A70014F342 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91414C5253777A70014F342 /* SceneDelegate.swift */; };
 		E91414C8253777A70014F342 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91414C7253777A70014F342 /* HomeTableViewController.swift */; };
@@ -50,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AE0546F289565120535013B /* Pods-MealMunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealMunch.debug.xcconfig"; path = "Target Support Files/Pods-MealMunch/Pods-MealMunch.debug.xcconfig"; sourceTree = "<group>"; };
+		1CE8D227FEB4687FA5A4AF86 /* Pods-MealMunchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealMunchTests.release.xcconfig"; path = "Target Support Files/Pods-MealMunchTests/Pods-MealMunchTests.release.xcconfig"; sourceTree = "<group>"; };
+		615F4497A49749B1A813E65E /* Pods_MealMunchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MealMunchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0161021F016FF19712866CE /* Pods-MealMunchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealMunchTests.debug.xcconfig"; path = "Target Support Files/Pods-MealMunchTests/Pods-MealMunchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B40910644B5BA9AD3A5DE207 /* Pods-MealMunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealMunch.release.xcconfig"; path = "Target Support Files/Pods-MealMunch/Pods-MealMunch.release.xcconfig"; sourceTree = "<group>"; };
 		E91414C3253777A70014F342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E91414C5253777A70014F342 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E91414C7253777A70014F342 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +91,7 @@
 		E9E584AF253B7D7B0073CA7A /* Recipie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipie.swift; sourceTree = "<group>"; };
 		E9E584B7253B81830073CA7A /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
 		E9E584BF253B922C0073CA7A /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		FE0DDAB73B22D200F05301EB /* Pods_MealMunch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MealMunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E3B57A5F00B8DE42C703E1A /* Pods_MealMunch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +107,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEF22A5547F954E0DB42598 /* Pods_MealMunchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		187F511ADD7EC5AEDCF70FB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AE0546F289565120535013B /* Pods-MealMunch.debug.xcconfig */,
+				B40910644B5BA9AD3A5DE207 /* Pods-MealMunch.release.xcconfig */,
+				B0161021F016FF19712866CE /* Pods-MealMunchTests.debug.xcconfig */,
+				1CE8D227FEB4687FA5A4AF86 /* Pods-MealMunchTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		80E11CF965465E9E5F192A6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE0DDAB73B22D200F05301EB /* Pods_MealMunch.framework */,
+				615F4497A49749B1A813E65E /* Pods_MealMunchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E91414B7253777A70014F342 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +142,8 @@
 				E9561636253C8FF700D95D7B /* MealMunch.app */,
 				E9561685253C924500D95D7B /* MealMunchTests */,
 				E982E82E253D7578001E0DEA /* MealMunchTests.xctest */,
+				187F511ADD7EC5AEDCF70FB5 /* Pods */,
+				80E11CF965465E9E5F192A6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E91414EA253777A80014F342 /* Build configuration list for PBXNativeTarget "MealMunch" */;
 			buildPhases = (
+				CD5F10A4AD74024D0716631A /* [CP] Check Pods Manifest.lock */,
 				E91414BC253777A70014F342 /* Sources */,
 				E91414BD253777A70014F342 /* Frameworks */,
 				E91414BE253777A70014F342 /* Resources */,
+				62EA443A92239FCF57565C2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +267,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E956168B253C924500D95D7B /* Build configuration list for PBXNativeTarget "MealMunchTests" */;
 			buildPhases = (
+				5F02364854633F3930DDE554 /* [CP] Check Pods Manifest.lock */,
 				E9561680253C924500D95D7B /* Sources */,
 				E9561681253C924500D95D7B /* Frameworks */,
 				E9561682253C924500D95D7B /* Resources */,
@@ -308,6 +344,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F02364854633F3930DDE554 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MealMunchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62EA443A92239FCF57565C2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MealMunch/Pods-MealMunch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MealMunch/Pods-MealMunch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MealMunch/Pods-MealMunch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5F10A4AD74024D0716631A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MealMunch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E91414BC253777A70014F342 /* Sources */ = {
@@ -493,6 +593,7 @@
 		};
 		E91414EB253777A80014F342 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE0546F289565120535013B /* Pods-MealMunch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -511,6 +612,7 @@
 		};
 		E91414EC253777A80014F342 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40910644B5BA9AD3A5DE207 /* Pods-MealMunch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -529,6 +631,7 @@
 		};
 		E956168C253C924500D95D7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0161021F016FF19712866CE /* Pods-MealMunchTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +651,7 @@
 		};
 		E956168D253C924500D95D7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE8D227FEB4687FA5A4AF86 /* Pods-MealMunchTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

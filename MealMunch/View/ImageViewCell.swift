@@ -1,4 +1,5 @@
 import UIKit
+import SDWebImage
 
 class ImageViewCell: UITableViewCell {
     private var sharedAppearance = AppearanceHandler()
@@ -24,14 +25,10 @@ class ImageViewCell: UITableViewCell {
     }
 
     func configure(imageURL: URL) {
-        images.image = downloadImage(imageURL: imageURL)
+        setUpImage(imageURL: imageURL)
     }
 
-    func downloadImage(imageURL: URL) -> UIImage? {
-        let data = try? Data(contentsOf: imageURL)
-        if let imageData = data {
-            return UIImage(data: imageData)
-        }
-        return UIImage(named: "ImagePlaceholder")
+    func setUpImage(imageURL: URL) {
+        images.sd_setImage(with: imageURL, placeholderImage: UIImage(named: "ImagePlaceholder"))
     }
 }

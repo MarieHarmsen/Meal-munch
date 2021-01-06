@@ -7,24 +7,11 @@ enum recipeKeys: String {
     case number = "number"
 }
 
-class HomeTableViewModel: SearchViewDelegate {
-    func didTapSearch(query: String) {
-        self.query = query
-        isValidSearchData(query: query) ? getData() : viewModelDelegate?.navigateToErrorScreen()
-    }
-
-    func isValidSearchData(query: String) -> Bool {
-        for character in query {
-            if !character.isLetter {
-                return false
-            }
-        }
-        return true
-    }
-
-    weak var viewModelDelegate: HomeViewModelDelegate?
+class HomeTableViewModel {
+    private weak var viewModelDelegate: HomeViewModelDelegate?
     var searchViewDelegate: SearchViewDelegate?
     private var recipeViewData : RecipeViewData?
+    private var kOtherRowCount = 1
     private var query = "yoghurt"
 
     init(with viewModelDelegate: HomeViewModelDelegate?) {
@@ -66,18 +53,35 @@ class HomeTableViewModel: SearchViewDelegate {
     }
 
     func getSectionCount() -> Int {
-        guard let amountOfRecipies = recipeViewData?.meals?.count else { return 1 }
+        guard let amountOfRecipies = recipeViewData?.meals?.count else { return kOtherRowCount }
         if amountOfRecipies >= Constants().MaxNumberOfRecipes {
-            return Constants().MaxNumberOfRecipes+1
+            return Constants().MaxNumberOfRecipes+kOtherRowCount
         }
-        return amountOfRecipies+1
+        return amountOfRecipies+kOtherRowCount
     }
 
     func getMealTitle(index: Int) -> String {
-        return recipeViewData?.meals?[index].title ?? ""
+        return recipeViewData?.meals?[index-kOtherRowCount].title ?? ""
     }
 
     func getMealImageURL(index: Int) -> URL? {
-        return URL(string: recipeViewData?.meals?[index].image ?? "")
+        return URL(string: recipeViewData?.meals?[index-kOtherRowCount].image ?? "")
+    }
+}
+
+extension HomeTableViewModel: SearchViewDelegate {
+    
+    func didTapSearch(query: String) {
+        self.query = query
+        isValidSearchData(query: query) ? getData() : viewModelDelegate?.navigateToErrorScreen()
+    }
+
+    func isValidSearchData(query: String) -> Bool {
+        for character in query {
+            if !character.isLetter {
+                return false
+            }
+        }
+        return true
     }
 }
