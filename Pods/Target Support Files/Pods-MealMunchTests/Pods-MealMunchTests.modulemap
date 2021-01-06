@@ -1,0 +1,6 @@
+framework module Pods_MealMunchTests {
+  umbrella header "Pods-MealMunchTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
